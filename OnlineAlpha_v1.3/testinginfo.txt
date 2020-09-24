@@ -1,0 +1,12 @@
+1.2 ne funkcionira, popravljeni neki bugovi, ovo služi za daljne testiranje
+
+IndexOutOfRangeException: Index was outside the bounds of the array.
+GoFish.GameDataManager.GetNextTurnPlayer () (at Assets/Starter/Assets/Scripts/GameDataManager.cs:289)
+GoFish.MultiplayerGame.OnGameDataChanged (GoFish.EncryptedData encryptedData) (at Assets/Starter/Assets/Scripts/MultiplayerGame.cs:304)
+UnityEngine.Events.InvokableCall`1[T1].Invoke (T1 args0) (at <94c5f4c38cdc42d2b006f8badef04394>:0)
+UnityEngine.Events.UnityEvent`1[T0].Invoke (T0 arg0) (at <94c5f4c38cdc42d2b006f8badef04394>:0)
+GoFish.NetCode.OnEncryptedDataChanged () (at Assets/Starter/Assets/Scripts/NetCode.cs:101)
+UnityEngine.Events.InvokableCall.Invoke () (at <94c5f4c38cdc42d2b006f8badef04394>:0)
+UnityEngine.Events.UnityEvent.Invoke () (at <94c5f4c38cdc42d2b006f8badef04394>:0)
+SWNetwork.SWSyncedProperty+<>c__DisplayClass61_0.<RemoteUpdateFinish>b__0 () (at <809daa4a989e454b85a8435d0fa485b2>:0)
+SWNetwork.Core.UnityThread.Update () (at <809daa4a989e454b85a8435d0fa485b2>:0)
